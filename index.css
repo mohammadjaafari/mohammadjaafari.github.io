@@ -7,6 +7,8 @@
   --color5: #0b2447;
   --color6: #000000;
   --font: #2e3440;
+  --link1: #4ba69d;
+  --link2: #007070;
 }
 
 body {
@@ -25,7 +27,7 @@ body {
 .name {
   text-align: center;
   font-size: 36px;
-  color: #0b2447;
+  color: var(--color5);
   font-family: "Nunito", sans-serif;
   font-weight: 600;
 }
@@ -100,11 +102,11 @@ h6 {
   line-height: 1;
 }
 a {
-  color: #4ba69d;
+  color: var(--link1);
   text-decoration: underline;
 }
 a:visited {
-  color: #007070;
+  color: var(--link2);
 }
 a:hover {
   text-decoration: underline;
