@@ -1,0 +1,162 @@
+body {
+  background-color: #fff;
+  color: #2e3440;
+  font-size: 14pt;
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
+}
+nav {
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+nav ul {
+  padding-left: 0;
+  width: 100%;
+  margin: auto;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+nav ul li:nth-child(1) {
+  border-bottom: 4px solid #dae3e5;
+}
+nav ul li:nth-child(2) {
+  border-bottom: 4px solid #bbd1ea;
+}
+nav ul li:nth-child(3) {
+  border-bottom: 4px solid #a1c6ea;
+}
+nav ul li:nth-child(4) {
+  border-bottom: 4px solid #507dbc;
+}
+nav ul li:nth-child(5) {
+  border-bottom: 4px solid #04080f;
+}
+nav ul li {
+  padding: 0.5rem;
+  display: inline;
+  min-width: 15%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.bar {
+  display: flex;
+}
+.bar .segment {
+  height: 0.7rem;
+  flex-grow: 1;
+}
+.bar .segment:nth-child(1) {
+  background-color: #a5d7e8;
+}
+.bar .segment:nth-child(2) {
+  background-color: #576cbc;
+}
+.bar .segment:nth-child(3) {
+  background-color: #19376d;
+}
+.bar .segment:nth-child(4) {
+  background-color: #132a54;
+}
+.bar .segment:nth-child(5) {
+  background-color: #0b2447;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding-top: 2rem;
+  line-height: 1;
+}
+a {
+  color: #4ba69d;
+  text-decoration: underline;
+}
+a:visited {
+  color: #007070;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+article {
+  max-width: 780px;
+  margin: auto;
+  padding: 1rem;
+}
+article h1 {
+  font-size: 3rem;
+}
+article h2 {
+  font-size: 2rem;
+}
+article h3 {
+  font-size: 1.5rem;
+}
+article p {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+article.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  padding-right: 1rem;
+}
+article.homepage .container section {
+  padding-left: 2rem;
+}
+article.homepage .container section p {
+  padding-bottom: 0.8rem;
+}
+article.homepage .container section ul {
+  margin: 0;
+  padding-bottom: 1rem;
+}
+article.homepage .container .hero {
+  width: 380px;
+  margin: auto;
+}
+.name {
+  text-align: center;
+  font-size: 36px;
+  color: #0b2447;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul[class],
+ol[class] {
+  padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
