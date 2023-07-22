@@ -1,10 +1,35 @@
+:root {
+  --color0: #ffffff;
+  --color1: #a5d7e8;
+  --color2: #576cbc;
+  --color3: #19376d;
+  --color4: #132a54;
+  --color5: #0b2447;
+  --color6: #000000;
+  --font: #2e3440;
+}
+
 body {
-  background-color: #fff;
-  color: #2e3440;
+  background-color: var(--color0);
+  color: var(--font);
   font-size: 14pt;
   font-family: "Nunito", sans-serif;
   overflow-x: hidden;
 }
+.hero {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+.name {
+  text-align: center;
+  font-size: 36px;
+  color: #0b2447;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+
 nav {
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
@@ -20,19 +45,19 @@ nav ul {
   justify-content: center;
 }
 nav ul li:nth-child(1) {
-  border-bottom: 4px solid #dae3e5;
+  border-bottom: 4px solid var(--color1);
 }
 nav ul li:nth-child(2) {
-  border-bottom: 4px solid #bbd1ea;
+  border-bottom: 4px solid var(--color2);
 }
 nav ul li:nth-child(3) {
-  border-bottom: 4px solid #a1c6ea;
+  border-bottom: 4px solid var(--color3);
 }
 nav ul li:nth-child(4) {
-  border-bottom: 4px solid #507dbc;
+  border-bottom: 4px solid var(--color4);
 }
 nav ul li:nth-child(5) {
-  border-bottom: 4px solid #04080f;
+  border-bottom: 4px solid var(--color5);
 }
 nav ul li {
   padding: 0.5rem;
@@ -50,19 +75,19 @@ nav ul li {
   flex-grow: 1;
 }
 .bar .segment:nth-child(1) {
-  background-color: #a5d7e8;
+  background-color: var(--color1);
 }
 .bar .segment:nth-child(2) {
-  background-color: #576cbc;
+  background-color: var(--color2);
 }
 .bar .segment:nth-child(3) {
-  background-color: #19376d;
+  background-color: var(--color3);
 }
 .bar .segment:nth-child(4) {
-  background-color: #132a54;
+  background-color: var(--color4);
 }
 .bar .segment:nth-child(5) {
-  background-color: #0b2447;
+  background-color: var(--color5);
 }
 
 h1,
@@ -120,15 +145,6 @@ article.homepage .container section p {
 article.homepage .container section ul {
   margin: 0;
   padding-bottom: 1rem;
-}
-article.homepage .container .hero {
-  width: 380px;
-  margin: auto;
-}
-.name {
-  text-align: center;
-  font-size: 36px;
-  color: #0b2447;
 }
 
 *,
